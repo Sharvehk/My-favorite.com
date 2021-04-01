@@ -1,0 +1,103 @@
+body {
+    background: linear-gradient(#4bc400 0%, #33c9cc 50%, #3003fc 100%);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#img {
+    border-radius: 50%
+}
+
+p {
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    text-shadow: 2px 2px gray;
+    font-family: monospace;
+    color: #00bcc9;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#menu {
+    z-index: 10;
+    list-style:none;
+    font-family: 'Josefin Sans', sans-serif;
+    top: 0;
+    cursor: pointer;
+    color: firebrick;
+    font-size: 20px;
+    width: 100%;
+    position:sticky;
+}
+
+.link {
+    color: aqua;
+    display: inline;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+#welcome {
+    z-index: 9;
+    padding-top: 70px;
+}
+
+.line {
+    background-color: darkgrey;
+    width: 70px;
+    height: 8px;
+    margin: 8px auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: My work;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#inspration img {
+    transition: 2s;
+    border: 10px solid #00bcc9;
+}
+
+#inspration img:hover {
+    transform: scale(0.9);
+}
+
+#contact {
+    background: linear-gradient(#ff0000 0%, #fbff00 50%, #ffa600 100%);
+}
+
+a {
+    transition: 2s;
+    text-decoration: none;
+    color:white;
+    font-family:sans-serif;
+}
+
+a:hover {
+    text-decoration:underline;
+    transform: scale(0.9);
+}
